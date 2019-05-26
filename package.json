@@ -4,7 +4,8 @@
   "description": "GroupWere is a Groupware service hosted by me.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "mongoose-timestamp": "^0.6.0",
     "restify": "^8.3.2",
     "restify-errors": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
