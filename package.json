@@ -21,7 +21,7 @@
   },
   "homepage": "https://gitlab.com/mattsmcknight/groupwere#readme",
   "dependencies": {
-    "mongoose": "^5.5.11",
+    "mongoose": "^5.7.5",
     "mongoose-timestamp": "^0.6.0",
     "restify": "^8.3.2",
     "restify-errors": "^8.0.0"
